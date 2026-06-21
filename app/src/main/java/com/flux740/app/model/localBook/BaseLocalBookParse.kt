@@ -1,0 +1,21 @@
+package com.flux740.app.model.localBook
+
+import com.flux740.app.data.entities.Book
+import com.flux740.app.data.entities.BookChapter
+import java.io.InputStream
+
+/**
+ *companion object interface
+ *see EpubFile.kt
+ */
+interface BaseLocalBookParse {
+
+    fun upBookInfo(book: Book)
+
+    fun getChapterList(book: Book): ArrayList<BookChapter>
+
+    fun getContent(book: Book, chapter: BookChapter): String?
+
+    fun getImage(book: Book, href: String): InputStream?
+
+}

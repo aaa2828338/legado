@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <io.legado.app.ui.widget.TitleBar
+    <com.flux740.app.ui.widget.TitleBar
         android:id="@+id/title_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <io.legado.app.help.gsyVideo.VideoPlayer
+    <com.flux740.app.help.gsyVideo.VideoPlayer
         android:id="@+id/playerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         android:orientation="horizontal"
         android:paddingBottom="12dp">
 
-        <io.legado.app.ui.widget.image.CoverImageView
+        <com.flux740.app.ui.widget.image.CoverImageView
             android:id="@+id/iv_cover"
             android:layout_width="110dp"
             android:layout_height="160dp"
@@ -119,7 +119,7 @@
                 android:padding="8dp"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
-            <io.legado.app.ui.widget.image.ImageButton
+            <com.flux740.app.ui.widget.image.ImageButton
                 android:id="@+id/iv_chapter"
                 android:layout_width="46dp"
                 android:layout_height="46dp"
